@@ -1,0 +1,91 @@
+/* Estilos para el título */
+h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #333; /* Color de texto más oscuro */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 80%;
+    
+    margin-top: 20px;
+    margin: 20px auto;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+/* Estilos para las celdas de la tabla */
+th, td {
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+    
+    
+}
+
+/* Estilos para las celdas de encabezado de la tabla */
+th {
+    background-color: #ffc107;
+    font-weight: bold;
+    color: #333; 
+    font-size: 24px;
+}
+
+/* Estilos para las filas impares */
+tbody tr::hover {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para las filas pares */
+tbody tr:hover {
+    background-color: #fafafa; /* Cambio ligero en el color de fondo */
+}
+.custom-button-previous,
+.custom-button-next {
+  background-color:#ffc107;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  
+}
+
+.custom-button-previous:hover,
+.custom-button-next:hover {
+  background-color: #d39e00; 
+  
+}
+
+.access-table th {
+    color: #fff; 
+  }
+  
+  .access-container {
+    position: relative;
+  }
+  
+  .access-table-container {
+    position: relative;
+    margin-bottom: 50px; 
+  }
+  
+  .export-button-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -80px;
+    margin-right: 200px;
+  }
+  
+  .export-button-container button {
+    padding: 20px 20px; 
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .export-button-container button:hover {
+    background-color: #34e57a; 
+  }

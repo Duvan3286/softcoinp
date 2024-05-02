@@ -1,0 +1,68 @@
+.custom-table-container1 {
+  /* Estilos para el contenedor de la tabla */
+  width: 80%;
+  margin: 20px auto;
+  position: relative; /* Añade posicionamiento relativo para los elementos absolutos dentro de este contenedor */
+}
+
+.custom-table {
+  /* Estilos para la tabla */
+  width: 100%;
+  font-size: 18px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.custom-table th,
+.custom-table td {
+  /* Estilos para las celdas de la tabla */
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.custom-table th {
+  /* Estilos para las celdas de encabezado de la tabla */
+  background-color: #004080;
+  font-weight: bold;
+  color: #fff;
+  font-size: 24px;
+}
+
+.custom-button-previous1,
+.custom-button-next1 {
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.custom-button-previous1:hover,
+.custom-button-next1:hover {
+  background-color: #1f618d;
+}
+
+.access-table-container1 {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.export-button-excel {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  padding: 20px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.export-button-excel:hover {
+  background-color: #34e57a;
+}
